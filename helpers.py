@@ -29,7 +29,7 @@ def display_socials(linkedin,twitter,medium,portfolio,github):
     return result
     
     
-def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portoflio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[]):
+def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portfolio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[]):
     return f'''
 # Hello World <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px>
 ![visitors](https://visitor-badge.glitch.me/badge?page_id={github_username+'.'+github_username})
