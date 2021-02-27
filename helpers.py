@@ -36,7 +36,6 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='
 
 <div size='20px'> Hi! My name is {name}. Thank You for taking the time to view my GitHub Profile :smile: 
 <h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="64px"> </h2>
-<br>
 {display_socials(linkedin_url,twitter_url,medium_url,portfolio_url,github_username)}
 </div>
 
