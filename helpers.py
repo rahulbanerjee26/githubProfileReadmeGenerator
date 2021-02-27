@@ -3,7 +3,7 @@ import base64
 def display_skills(skills):
     result = []
     for skill in skills:
-        base = f'''<img width ='28px' align='left' src ='{'https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/'+skill+'.svg'}'>'''
+        base = f'''<img width ='22px' align='left' src ='{'https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/'+skill+'.svg'}'>'''
         result.append(base)
     return '\n'.join(result)
 
@@ -11,21 +11,21 @@ def display_socials(linkedin,twitter,medium,portfolio,github):
     result = ''
     if linkedin != '':
         linkedin = 'https://www.linkedin.com/in/'+linkedin
-        result += f'''<a href = '{linkedin}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> \n'''
+        result += f'''<a href = '{linkedin}'> <img width = '22px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> \n'''
     
     if twitter != '':
         twitter = 'https://www.twitter.com/'+twitter
-        result += f'''<a href = '{twitter}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a> \n'''
+        result += f'''<a href = '{twitter}'> <img width = '22px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a> \n'''
     
     if medium != '':
-        result += f'''<a href = '{medium}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a> \n'''
+        result += f'''<a href = '{medium}'> <img width = '22px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a> \n'''
     
     if portfolio != '':
-        result += f'''<a href = '{portfolio}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.svg"/></a> \n'''    
+        result += f'''<a href = '{portfolio}'> <img width = '22px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.svg"/></a> \n'''    
     
     if github != '':
         github = 'https://www.github.com/'+github   
-        result += f'''<a href = '{github}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> \n'''
+        result += f'''<a href = '{github}'> <img width = '22px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> \n'''
     return result
     
     
