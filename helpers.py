@@ -3,7 +3,7 @@ import base64
 def display_skills(skills):
     result = []
     for skill in skills:
-        base = f'''<img width ='28px' align='left' src ='{'https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/'+skill+'.svg'}>'''
+        base = f'''<img width ='28px' align='left' src ='{'https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/'+skill+'.svg''}>'''
         result.append(base)
     return '\n'.join(result)
 
@@ -23,7 +23,7 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userNam
 <br>
 <br>
 
-<h2> Skills </h2
+<h2> Skills </h2>
 {display_skills(skills)}
 
 <h2> About Me</h2>
