@@ -10,7 +10,7 @@ def display_skills(skills):
 def display_socials(linkedin,twitter,medium,portfolio,github):
     result = ''
     if linkedin != '':
-        linkedin = 'https://www.linkedin.com/'+linkedin
+        linkedin = 'https://www.linkedin.com/in/'+linkedin
         result += f'''<a href = '{linkedin}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in-alt.svg"/></a> \n'''
     
     if twitter != '':
@@ -39,11 +39,10 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='
 <br>
 {display_socials(linkedin_url,twitter_url,medium_url,portfolio_url,github_username)}
 </div>
-<br>
+
 <h2> Skills </h2>
 {display_skills(skills)}
-<br>
-<br>
+
 <h2> About Me</h2>
 
 - 🔭 I’m currently working on {p1}
