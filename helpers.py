@@ -3,9 +3,9 @@ import base64
 def display_skills(skills):
     result = []
     for skill in skills:
-        base = f'''<img src ='{'https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/'+skill+'.svg'}>'''
+        base = f'''<img width ='28px' align='left' src ='{'https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/'+skill+'.svg'}>'''
         result.append(base)
-    return '/n'.join(result)
+    return '\n'.join(result)
 
 def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[]):
     return f'''
