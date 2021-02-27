@@ -3,7 +3,7 @@ import base64
 def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........'):
     return f'''
 # Hello World <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px>
-![visitors](https://visitor-badge.glitch.me/badge?page_id={github_username.github_username})
+![visitors](https://visitor-badge.glitch.me/badge?page_id={github_username+'.'+github_username})
 
 <div size='20px'> Hi! My name is {name}. Thank You for taking the time to view my GitHub Profile :smile: 
 <h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="64px"> </h2>
