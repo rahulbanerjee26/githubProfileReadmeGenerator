@@ -7,7 +7,29 @@ def display_skills(skills):
         result.append(base)
     return '\n'.join(result)
 
-def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[]):
+def display_socials(linkedin,twitter,medium,portfolio,github):
+    result = ''
+    if linkedin != '':
+        linkedin = 'https://www.linkedin.com/'+linkedin
+        result += f'''<a href = '{linkedin}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linked-in.svg"/></a> \n'''
+    
+    if twitter != '':
+        twitter = 'https://www.twitter.com/'+twitter
+        result += f'''<a href = '{twitter}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg"/></a> \n'''
+    
+    if medium != '':
+        result += f'''<a href = '{medium}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.svg"/></a> \n'''
+    
+    if portfolio != '':
+        result += f'''<a href = '{portfolio}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.svg"/></a> \n'''    
+    
+    if github != '':
+        github = 'https://www.github.com/'+githube   
+        result += f'''<a href = '{github}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> \n'''
+    return result
+    
+    
+def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portoflio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[]):
     return f'''
 # Hello World <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px>
 ![visitors](https://visitor-badge.glitch.me/badge?page_id={github_username+'.'+github_username})
@@ -15,10 +37,8 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userNam
 <div size='20px'> Hi! My name is {name}. Thank You for taking the time to view my GitHub Profile :smile: 
 <h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="64px"> </h2>
 <br>
-<a href = '{linkedin_url}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linkedin-round-color.png"/></a>
-<a href='{twitter_url}'> <img  width='36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter-round-color.png" href = 'https://twitter.com/rahulbanerjee99'> </a>
-<a href = '{linkedin_url}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/profile-website.png"/></a>
-<a href = '{linkedin_url}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.png"/></a>
+
+{display_socials(linkedin_url,twitter_url,medium_url,portfolio_url,github_username)}
 </div>
 <br>
 <br>
@@ -26,6 +46,8 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userNam
 <h2> Skills </h2>
 {display_skills(skills)}
 
+<br>
+<br>
 <h2> About Me</h2>
 
 - 🔭 I’m currently working on {p1}

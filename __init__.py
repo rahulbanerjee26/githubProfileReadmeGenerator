@@ -10,12 +10,16 @@ col1 , col2, col3 = st.beta_columns(3)
 
 with col1:
     name = st.text_input("Name")
+    twitter = st.text_input("Twitter")
 
 with col2:
     github = st.text_input("Github UserID")
+    portfolio = st.text_input("Portfolio")
 
 with col3:
     linkedin = st.text_input("Linkedin userID")
+    medium = st.text_input("Medium URL")
+
 
 p1 = st.text_area("I am currently working on")
 p2 = st.text_area("I am currently learning")
@@ -60,6 +64,6 @@ with e2:
 st.markdown('<br> <br>' , unsafe_allow_html = True)   
 save = st.button("Generate README")
 if save:
-    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills)
+    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills,twitter_url=twitter,medium_url = medium, portoflio_url = portfolio)
     st.markdown(download_readme(code),unsafe_allow_html = True)
     st.markdown(code, unsafe_allow_html = True)

@@ -1,7 +1,7 @@
-import glob
-lst = glob.glob("./icons/*.svg")
-lst = [elem.split("\\")[-1][:-4] for elem in lst]
-print(lst)
+# import glob
+# lst = glob.glob("./icons/*.svg")
+# lst = [elem.split("\\")[-1][:-4] for elem in lst]
+# print(lst)
 
 skills = ['11ty', 'amplify', 'android', 'angularjs', 'apachecordova', 'arduino', 'aws', 'azure', 'babel', 'backbonejs', 
 'bash', 'behance', 'blender', 'blogger', 'bootstrap', 'bulma', 'c', 'canvasjs', 'cassandra', 'chartjs', 'circleci', 'clojure', 'cockroachdb', 'codeigniter', 'codepen', 'coffeescript', 'couchdb', 'cpp', 'csharp', 'css', 'cypress', 'd3js', 'dart', 'discord', 'django', 'docker', 'dotnet', 'dribbble', 'dropbox', 'elasticsearch', 'electron', 'elixir', 'ember', 'envato', 'erlang', 'express', 'facebook-alt', 'facebook', 'figma', 'firebase', 'flask', 'flutter', 'framer', 'gatsby', 'gcp', 'geeks-for-geeks', 'git', 'github', 'go', 'google', 'grafana', 'graphql', 'gridsome', 'gtk', 'gulp', 'hackerearth', 'hackerrank', 'hadoop', 'haskell', 'heroku', 'hexo', 'hive', 'html', 'hugo', 'illustrator', 'instagram', 'invision', 'ionic', 'jasmine', 'java', 'javascript', 'jekyll', 'jenkins', 'jest', 'kafka', 'kaggle', 'karma', 'kibana', 'kotlin', 'kubernetes', 'laravel', 'leet-code', 'linked-in-alt', 'linked-in', 'linux', 'mariadb', 'materialize', 'matlab', 'medium', 'messenger', 'meteor', 'middleman', 'mocha', 'mongodb', 'myspace-alt', 'myspace', 'mysql', 'nativescript', 'nextjs', 'nginx', 'nodejs', 'nuxtjs', 'objectivec', 'opencv', 'openresty', 'oracle', 'path', 'perl', 'photo', 'photoshop', 'php', 'picasa', 'pinterest', 
