@@ -22,7 +22,7 @@ p2 = st.text_area("I am currently learning")
 p3 = st.text_area("I am looking to collaborate on")
 p4 = st.text_area("talk to me about")
 
-user_skils = st.multiselect("Select Skills",options=skills)
+user_skills = st.multiselect("Select Skills",options=skills)
 
 waka_userid = st.text_input("Wakatime User ID")
 e1 = st.beta_expander("What is Wakatime and how do I get my user ID?")
