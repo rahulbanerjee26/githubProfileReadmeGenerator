@@ -24,7 +24,7 @@ def display_socials(linkedin,twitter,medium,portfolio,github):
         result += f'''<a href = '{portfolio}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/portfolio.svg"/></a> \n'''    
     
     if github != '':
-        github = 'https://www.github.com/'+githube   
+        github = 'https://www.github.com/'+github   
         result += f'''<a href = '{github}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> \n'''
     return result
     
