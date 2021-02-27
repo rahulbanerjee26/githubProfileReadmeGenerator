@@ -8,8 +8,10 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',waka_userNam
 <div size='20px'> Hi! My name is {name}. Thank You for taking the time to view my GitHub Profile :smile: 
 <h2> Connect with me <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="64px"> </h2>
 <br>
-<a href = '{linkedin_url}> <img width = '36px' align= 'left' src="https://github.com/rahuldkjain/github-profile-readme-generator/blob/master/src/images/icons/Social/linked-in-alt.svg"/></a>
-<a href='{twitter_url}'> <img  width='36px' align= 'left' src="https://github.com/rahuldkjain/github-profile-readme-generator/blob/master/src/images/icons/Social/twitter-alt.svg" href = 'https://twitter.com/rahulbanerjee99'> </a>
+<a href = '{linkedin_url}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/linkedin-round-color.png"/></a>
+<a href='{twitter_url}'> <img  width='36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter-round-color.png" href = 'https://twitter.com/rahulbanerjee99'> </a>
+<a href = '{linkedin_url}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/profile-website.png"/></a>
+<a href = '{linkedin_url}'> <img width = '36px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/medium.png"/></a>
 </div>
 <br>
 <br>
