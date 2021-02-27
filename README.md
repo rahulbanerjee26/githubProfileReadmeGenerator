@@ -4,7 +4,7 @@
 
 <img src='https://github.com/rahulbanerjee26/githubAboutMeGenerator/blob/main/screencast_ghub_profile_gen.gif' alt='Screencast of Github AboutMe/Profile ReadMe Generator'/>
 
-<h2 align ='center'> A few inputs + ~20 mins = Your Github Profile reaches a new level 🔥 </h2>
+<h2 align ='center'> A few inputs + ~15 mins = Your Github Profile reaches a new level 🔥 </h2>
 
 # Live 🌞
 https://share.streamlit.io/rahulbanerjee26/githubaboutmegenerator/main/__init__.py  
