@@ -1,5 +1,6 @@
 import streamlit as st
-from default import *
+from helpers import *
+from main import skills
 
 st.title("Github About Me Template")
 st.subheader("Fill in the text boxes and click on Generate README")
@@ -20,6 +21,8 @@ p1 = st.text_area("I am currently working on")
 p2 = st.text_area("I am currently learning")
 p3 = st.text_area("I am looking to collaborate on")
 p4 = st.text_area("talk to me about")
+
+user_skils = st.multiselect("Select Skills",options=skills)
 
 waka_userid = st.text_input("Wakatime User ID")
 e1 = st.beta_expander("What is Wakatime and how do I get my user ID?")
@@ -57,6 +60,6 @@ with e2:
 st.markdown('<br> <br>' , unsafe_allow_html = True)   
 save = st.button("Generate README")
 if save:
-    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4)
+    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills)
     st.markdown(download_readme(code),unsafe_allow_html = True)
     st.markdown(code, unsafe_allow_html = True)
