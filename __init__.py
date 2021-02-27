@@ -64,6 +64,6 @@ with e2:
 st.markdown('<br> <br>' , unsafe_allow_html = True)   
 save = st.button("Generate README")
 if save:
-    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills,twitter_url=twitter,medium_url = medium, portoflio_url = portfolio)
+    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills,twitter_url=twitter,medium_url = medium, portfolio_url = portfolio)
     st.markdown(download_readme(code),unsafe_allow_html = True)
     st.markdown(code, unsafe_allow_html = True)
