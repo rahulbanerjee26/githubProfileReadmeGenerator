@@ -1,6 +1,6 @@
 # Github Profile README/ About Me Generator 💯
 
-### This webapp lets you build a cool README for your profile. 
+<h2 align='center' This webapp lets you build a cool README for your profile. </h2>
 
 <img src='https://github.com/rahulbanerjee26/githubAboutMeGenerator/blob/main/screencast_ghub_profile_gen.gif' alt='Screencast of Github AboutMe/Profile ReadMe Generator'/>
 
@@ -14,6 +14,16 @@ https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the
 
 The article contains resources for gifs, royalty free images/icons and tutorials on how to create your secret repo for the About Me Page, setting up the blog flow action etc.
 
+# Usage 🔧
+- Fill in the text boxes. Leave the ones you do not wish to fill blank.
+- By default the generated ReadMe has GitHub stats and Wakatime stats, feel free to remove them.
+- If you want to build on top of the Readme, </a> refer to the article I mentioned above </a> for resources and tips
+- If you used this app to build your README, consider adding yourself to the "Users who used this app to generate a README" section. You can showcase your README and others will be able to view it and star it. You are guranteed a star from me ⭐
+
+# Built With 🧰
+- <a href= 'https://github.com/python'> Python </a>
+- <a href= 'https://github.com/streamlit'> Streamlit </a>
+
 # Features 💿
 <ul><li>Gifs</li><li>Social Icons</li><li>Skill Icons</li><li>Visitors Badge</li><li>Github Stats</li><li>WakaTime Stats</li><li>.yml file to display Blog Posts from your feed</li></ul>
 <!-- /wp:list -->
@@ -23,21 +33,48 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 - Create Virtual Environment
 ``` python -m venv venv``` 
  ``` venv/Scripts/activate ```
-- Install required depeendecies
+- Install required dependencies
 ``` pip install -r requirements.txt```
 - Run the App 
 ```streamlit run __init__.py```
 
+# Contributors ✨
+- <a href= 'https://github.com/rahulbanerjee26'> Rahul Banerjee </a> - banerjeer2611@gmail.com
+
+# Feature Suggestion 💎
+- Create an Issue explaining the Feature
+
 # Contributing 🤝
-- Fork the repo
-- Push Changes to your branch
-- Create a Pull Request
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+- After your PR is merged, I will add you as a contributor :)
+- If you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR.
+- Follow the below format
+``` 
+- Your Name <br>
+<a href='Your LinkedIn URL'> <img width = '16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/linked-in-alt.svg" /> </a>
+<a href = 'Your GitHub URL'> <img  width='16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/github.svg"> </a>
+```
+- Or just reach out to me on Twitter/LinkedIn and I'll add you :)
 
 # Issues  🔓
-If you find any errors/issues feel free to create an Issue
+If you find any errors/issues, feel free to create an Issue
 
 # Plans for future release 📆
 - Adding more badges
-- Giving user ability to chose between different ReadMe 
+- Giving user ability to chose between different ReadMe designs
 - Increasing Number of social Icons
-Suggest any cool feature by creating an Issue for the Repo :)
+
+# Users who used this app to generate a README 🌠
+- Rahul Banerjee <br>
+<a href='https://www.linkedin.com/in/rahulbanerjee2699/'> <img width = '16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/linked-in-alt.svg" /> </a>
+<a href = 'https://github.com/rahulbanerjee26'> <img  width='16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/github.svg"> </a>
+
+# License ⚖️
+- Distributed under the ```MIT License```. See LICENSE for more information.
+
+
+
