@@ -1,6 +1,6 @@
 # Github Profile README/ About Me Generator 💯
 
-<h2 align='center' This webapp lets you build a cool README for your profile. </h2>
+<h2 align='center'> This webapp lets you build a cool README for your profile. </h2>
 
 <img src='https://github.com/rahulbanerjee26/githubAboutMeGenerator/blob/main/screencast_ghub_profile_gen.gif' alt='Screencast of Github AboutMe/Profile ReadMe Generator'/>
 
@@ -32,6 +32,7 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 - Clone the Repo
 - Create Virtual Environment
 ``` python -m venv venv``` 
+- Activate the virtual Environment
  ``` venv/Scripts/activate ```
 - Install required dependencies
 ``` pip install -r requirements.txt```
@@ -46,17 +47,16 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 
 # Contributing 🤝
 - Fork the Project
-- Create your Feature Branch (git checkout -b feature/AmazingFeature)
-- Commit your Changes (git commit -m 'Add some AmazingFeature')
-- Push to the Branch (git push origin feature/AmazingFeature)
+- Create your Feature Branch ```git checkout -b feature/AmazingFeature```
+- Commit your Changes ```git commit -m 'Add some AmazingFeature'```
+- Push to the Branch ```git push origin feature/AmazingFeature```
 - Open a Pull Request
 - After your PR is merged, I will add you as a contributor :)
 - If you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR.
 - Follow the below format
 ``` 
 - Your Name <br>
-<a href='Your LinkedIn URL'> <img width = '16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/linked-in-alt.svg" /> </a>
-<a href = 'Your GitHub URL'> <img  width='16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/github.svg"> </a>
+- <a href = 'Your Github URL'> Your Name </a>
 ```
 - Or just reach out to me on Twitter/LinkedIn and I'll add you :)
 
@@ -69,9 +69,8 @@ If you find any errors/issues, feel free to create an Issue
 - Increasing Number of social Icons
 
 # Users who used this app to generate a README 🌠
-- Rahul Banerjee <br>
-<a href='https://www.linkedin.com/in/rahulbanerjee2699/'> <img width = '16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/linked-in-alt.svg" /> </a>
-<a href = 'https://github.com/rahulbanerjee26'> <img  width='16px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/icons/github.svg"> </a>
+- <a href = 'https://github.com/rahulbanerjee26'> Rahul Banerjee </a>
+
 
 # License ⚖️
 - Distributed under the ```MIT License```. See LICENSE for more information.
