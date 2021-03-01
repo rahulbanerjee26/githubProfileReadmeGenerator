@@ -70,7 +70,7 @@ If you find any errors/issues, feel free to create an Issue
 
 # Users who used this app to generate a README 🌠
 - <a href = 'https://github.com/rahulbanerjee26'> Rahul Banerjee </a>
-
+- <a href = 'https://github.com/saminul'> Saminul Islam </a>
 
 # License ⚖️
 - Distributed under the ```MIT License```. See LICENSE for more information.
