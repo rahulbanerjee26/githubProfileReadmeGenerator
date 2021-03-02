@@ -27,7 +27,7 @@ if page == 'Home':
     ''')
     st.subheader("NOTE: As of now, the app doesn't support pagination, i.e If you move to a different page, your inputs in the text boxes will not be saved. The same applies for your code in the code editor as well")
     st.markdown('''
-[Star Repo](http://githubbadges.com/star.svg?user='rahulbanerjee26'&repo='githubProfileReadmeGenerator')
+
     ''')
 if page == 'Generate README':
     st.subheader("Fill in the text boxes and click on Generate README")
