@@ -1,8 +1,9 @@
 # Github Profile README/ About Me Generator 💯
-
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+[![Streamlit-Badge](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/rahulbanerjee26/githubaboutmegenerator/main/__init__.py)
 <h2 align='center'> This webapp lets you build a cool README for your profile. </h2>
 
-<img src='https://github.com/rahulbanerjee26/githubAboutMeGenerator/blob/main/screencast_ghub_profile_gen.gif' alt='Screencast of Github AboutMe/Profile ReadMe Generator'/>
+<img src='https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/blob/main/screencast_ghub_profile_gen_v1.gif' alt='Screencast of Github AboutMe/Profile ReadMe Generator'/>
 
 <h2 align ='center'> A few inputs + ~15 mins = Your Github Profile reaches a new level 🔥 </h2>
 
@@ -25,7 +26,9 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 - <a href= 'https://github.com/streamlit'> Streamlit </a>
 
 # Features 💿
-<ul><li>Gifs</li><li>Social Icons</li><li>Skill Icons</li><li>Visitors Badge</li><li>Github Stats</li><li>WakaTime Stats</li><li>.yml file to display Blog Posts from your feed</li></ul>
+<ul><li>Gifs</li><li>Social Icons</li><li>Skill Icons</li><li>Visitors Badge</li><li>Github Stats</li><li>WakaTime Stats</li><li>.yml file to display Blog Posts from your feed</li><li>Ability to add image banners at beginning of README</li>
+<li>Editor to edit Markdown with live update</li>
+<li>Random Jokes Card</li></ul>
 <!-- /wp:list -->
 
 # Running Locally 🖥️
