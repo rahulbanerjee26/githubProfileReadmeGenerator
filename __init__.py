@@ -28,7 +28,11 @@ p4 = st.text_area("talk to me about")
 
 user_skills = st.multiselect("Select Skills",options=skills)
 
+isWaka = st.checkbox(label= "Include WakaTime Stats",value = False)
 waka_userid = st.text_input("Wakatime User ID")
+
+github_stats_theme = st.selectbox(label="Select theme for GitHub Stats",options=["default","solarized-light","dark", "radical", "merko", "gruvbox", "tokyonight", "onedark", "cobalt", "synthwave", "highcontrast", "dracula"])
+
 e1 = st.beta_expander("What is Wakatime and how do I get my user ID?")
 with e1:
     st.text('''
@@ -42,7 +46,7 @@ with e1:
                 - In the dropdown next to 'Display code time publicly ', select 'Last 7 days' If you have a free version, the other options in the dropdown will not work
                 - Click on Save
         ''')
-st.markdown('<br> <br>' , unsafe_allow_html = True) 
+st.markdown('<br>' , unsafe_allow_html = True) 
 e2 = st.beta_expander("How to display my latest blog posts?")
 with e2:
     feed_url = st.text_input("URL to your feed", value = 'https://realpythonproject.com/feeed')
@@ -64,6 +68,6 @@ with e2:
 st.markdown('<br> <br>' , unsafe_allow_html = True)   
 save = st.button("Generate README")
 if save:
-    code = value=default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills,twitter_url=twitter,medium_url = medium, portfolio_url = portfolio)
+    code = default_html(name = name, github_username = github, waka_userName= waka_userid,linkedin_url = linkedin,p1 = p1,p2 = p2,p3 = p3,p4 = p4,skills=user_skills,twitter_url=twitter,medium_url = medium, portfolio_url = portfolio,isWaka = isWaka,github_stats_theme = github_stats_theme)
     st.markdown(download_readme(code),unsafe_allow_html = True)
     st.markdown(code, unsafe_allow_html = True)

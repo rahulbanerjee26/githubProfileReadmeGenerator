@@ -27,9 +27,31 @@ def display_socials(linkedin,twitter,medium,portfolio,github):
         github = 'https://www.github.com/'+github   
         result += f'''<a href = '{github}'> <img width = '22px' align= 'left' src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg"/></a> \n'''
     return result
-    
-    
-def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portfolio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[]):
+
+def show_waka(isWaka,waka_userName):
+    if isWaka:
+        return f'''
+## Stuff I worked on last week⌚ </h2>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+<img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@{waka_userName}&compact=True"/>
+</a>
+<br>
+        ''' 
+    else:
+        return '<br>'
+
+def show_github_stats(github_username,theme):
+    return f'''
+## My GitHub Stats 📊
+<a href="https://github.com/anuraghazra/github-readme-stats">
+<img align="left" src="https://github-readme-stats.vercel.app/api?username={github_username}&count_private=true&show_icons=true&theme={theme}" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_username}&theme={theme}" />
+</a>
+'''
+
+def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portfolio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[],isWaka = False,github_stats_theme = 'dark'):
     return f'''
 # Hello World <img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width = 50px>
 ![visitors](https://visitor-badge.glitch.me/badge?page_id={github_username+'.'+github_username})
@@ -51,20 +73,8 @@ def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='
 - 👯 I’m looking to collaborate on {p3}
 
 - 💬 Talk to me about {p4}
-
-## Stuff I worked on last week⌚
-<a href="https://github.com/anuraghazra/github-readme-stats">
-<img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=@{waka_userName}&compact=True"/>
-</a>
-
-## My GitHub Stats 📊
-<a href="https://github.com/anuraghazra/github-readme-stats">
-<img align="left" src="https://github-readme-stats.vercel.app/api?username={github_username}&count_private=true&show_icons=true&theme=radical" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username={github_username}&layout=compact" />
-</a>
-
+{show_waka(isWaka,waka_userName)}
+{show_github_stats(github_username,github_stats_theme)}
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
