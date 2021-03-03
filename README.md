@@ -58,7 +58,6 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 - If you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR.
 - Follow the below format
 ``` 
-- Your Name <br>
 - <a href = 'Your Github URL'> Your Name </a>
 ```
 - Or just reach out to me on Twitter/LinkedIn and I'll add you :)
