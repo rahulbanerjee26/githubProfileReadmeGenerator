@@ -54,10 +54,10 @@ if page == 'Generate README':
         linkedin = st.text_input("Linkedin userID",value='rahulbanerjee2699')
         medium = st.text_input("Medium URL")
 
-    p1_value = '''Data Science,AWS,Data Engineering'''
+    p1_value = '''My Blog, Github Project''' 
     p1 = st.text_area("I am currently working on", value=p1_value)
 
-    p2_value = '''My Blog, Github Project'''
+    p2_value = '''Data Science,AWS,Data Engineering'''
     p2 = st.text_area("I am currently learning", value = p2_value)
 
     p3_value = '''Projects,Tech Articles'''

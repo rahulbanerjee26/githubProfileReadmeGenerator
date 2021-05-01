@@ -67,9 +67,11 @@ def show_joke(isJoke,theme):
 
 def show_blog(is_blog):
     if is_blog:
-        return '''<h2> My Blog Posts </h2>
+        return '''
+<h2> My Blog Posts </h2>
 <!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->'''
+<!-- BLOG-POST-LIST:END -->
+'''
     return ''
 
 def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portfolio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[],isWaka = False,github_stats_theme = 'dark',isJoke = False,
