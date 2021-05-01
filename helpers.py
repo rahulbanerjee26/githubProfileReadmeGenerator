@@ -69,6 +69,7 @@ def show_blog(is_blog):
     if is_blog:
         return '''
 <h2> My Blog Posts </h2>
+
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 '''
