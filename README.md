@@ -31,6 +31,7 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 <li>Random Jokes Card</li></ul>
 
 ### Update 05-01-2020 🗓
+- Clicking on Skills shows your github repos filtered on that skill
 - Chose GitHub Stats Card Type
 - Cool Image in About Me section
 - Fixed styling 
