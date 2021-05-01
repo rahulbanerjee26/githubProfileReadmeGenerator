@@ -14,6 +14,9 @@ st.markdown('''
 
 
 sbar = st.sidebar
+sbar.markdown('''<a href="https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/"> Tutorial 📖 </a> <br>
+<a href="https://twitter.com/rahulbanerjee99" > Twitter 🐦</a> <br>
+<a href = "https://www.linkedin.com/in/rahulbanerjee2699/"> LinkedIn 👨‍💻</a>''' , unsafe_allow_html=True)
 page = sbar.radio("Select Page",options=['Home','Generate README'])
 if page == 'Home':
     st.subheader("Thank You for using this web app :smile:")
