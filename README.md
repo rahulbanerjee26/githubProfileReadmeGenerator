@@ -87,6 +87,3 @@ If you find any errors/issues, feel free to create an Issue
 
 # Resources
 - https://metrics.lecoq.io/
-- 
-
-
