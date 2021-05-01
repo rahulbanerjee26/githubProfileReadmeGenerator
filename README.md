@@ -27,7 +27,6 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 
 # Features 💿
 <ul><li>Gifs</li><li>Social Icons</li><li>Skill Icons</li><li>Visitors Badge</li><li>Github Stats</li><li>WakaTime Stats</li><li>.yml file to display Blog Posts from your feed</li><li>Ability to add image banners at beginning of README</li>
-<li>Editor to edit Markdown with live update</li>
 <li>Random Jokes Card</li></ul>
 
 ### Update 05-01-2020 🗓
