@@ -1,6 +1,8 @@
 # Github Profile README/ About Me Generator 💯
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+<a href="https://www.producthunt.com/posts/github-profile-readme-generator-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-github-profile-readme-generator-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=294427&theme=light" alt="Github Profile README Generator - A Few inputs+ ~15mins= Github Profile reaches a new level 🔥 | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 [![Streamlit-Badge](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/rahulbanerjee26/githubaboutmegenerator/main/__init__.py)
+
 <h2 align='center'> This webapp lets you build a cool README for your profile. </h2>
 
 <img src='https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/blob/main/screencast_ghub_profile_gen_v1.gif' alt='Screencast of Github AboutMe/Profile ReadMe Generator'/>
