@@ -1,8 +1,6 @@
 import streamlit as st
 from helpers import *
 from main import skills
-from streamlit_ace import st_ace
-
 
 st.set_page_config(layout='wide')
 
