@@ -23,7 +23,7 @@ if page == 'Home':
     st.markdown('''
     - Click on 'Generate README' in the sidebar
     - Fill in the text boxes
-    - Once you are done, slect on the 'Generate README' Button
+    - Once you are done, select the 'Generate README' Button
     - If you are happy with the Readme, you can download it
   
     ''')
@@ -31,10 +31,10 @@ if page == 'Generate README':
     st.subheader("Fill in the text boxes and click on Generate README")
     theme_list = ["default","solarized-light","dark", "radical", "merko", "gruvbox", "tokyonight", "onedark", "cobalt", "synthwave", "highcontrast", "dracula"]
     
-    github_stats_type = sbar.selectbox(label="Chose Github Stats Card Type",options=['type1','type2','type3'],index=1)
+    github_stats_type = sbar.selectbox(label="Chose Github Stats Card Type",options=['type-1','type-2','type-3'],index=1)
     
     github_stats_theme = ''
-    if github_stats_type == 'type3':
+    if github_stats_type == 'type-3':
         github_stats_theme = sbar.selectbox(label="Select theme for GitHub Stats",options=theme_list)
     
     isWaka = sbar.checkbox(label= "Include WakaTime Stats",value = True)
@@ -109,14 +109,14 @@ if page == 'Generate README':
     with e3:
         st.markdown(''' 
     - Enter the URL to the image, ensure URL ends with an extension like '.png','.svg','.gif'
-    - If you would like to use a downloaded image, uploade the image to your GitHub repo
+    - If you would like to use a downloaded image, upload the image to your GitHub repo
     - Click on the image file in your repo and click on either Download/Raw
     - Copy the URL of image
         ''')
     with c1:
-        img_width = st.text_input(label='Enter Image witdh(include units % or px)',value = '100%')
+        img_width = st.text_input(label='Enter Image witdh (include units % or px)',value = '100%')
     with c2:
-        img_height = st.text_input(label='Enter Image height(include units % or px)',value = '250px')
+        img_height = st.text_input(label='Enter Image height (include units % or px)',value = '250px')
 
     save = st.button("Generate README")
     if save:

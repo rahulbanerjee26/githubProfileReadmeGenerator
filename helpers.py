@@ -42,11 +42,11 @@ def show_waka(isWaka,waka_userName):
     else:
         return ''
 
-def show_github_stats(github_username,theme,choice = 'type2'):
-    if choice == 'type1':
+def show_github_stats(github_username,theme,choice = 'type-2'):
+    if choice == 'type-1':
         return f'''![Metrics](https://metrics.lecoq.io/{github_username}?template=classic&config.timezone=America%2FToronto)'''
 
-    if choice == 'type2':
+    if choice == 'type-2':
         return f'''![Metrics](https://metrics.lecoq.io/{github_username}?template=terminal&base.header=0&base.activity=0&base.repositories=0&base.metadata=0&languages=1&languages.limit=8&languages.colors=github&languages.threshold=0%25&config.timezone=America%2FToronto)'''
     
     return f'''<a href="https://github.com/anuraghazra/github-readme-stats">
@@ -76,7 +76,7 @@ def show_blog(is_blog):
     return ''
 
 def default_html(name = 'Rahul', linkedin_url = '',twitter_url = '',medium_url='',portfolio_url='',waka_userName = 'rahulbanerjee26',github_username = 'rahulbanerjee26',p1='......',p2='.......',p3='.........',p4='.........',skills=[],isWaka = False,github_stats_theme = 'dark',isJoke = False,
-joke_theme = 'dark',img_url = '',img_width='',img_height='',github_stats_type = 'type1',isBlog = False):
+joke_theme = 'dark',img_url = '',img_width='',img_height='',github_stats_type = 'type-1',isBlog = False):
     return f'''
 <div align="center">
 <img width="{img_width}" height = "{img_height}" src="{img_url}" alt="cover" />
@@ -146,5 +146,5 @@ steps:
 
 def download_readme(code):
     b64 = base64.b64encode(code.encode()).decode()
-    href = f'<h4><a href="data:file/csv;base64,{b64}" download="README.md">Dowload README</a></h4>'
+    href = f'<h4><a href="data:file/csv;base64,{b64}" download="README.md">Download README</a></h4>'
     return href
