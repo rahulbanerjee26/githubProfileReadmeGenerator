@@ -58,6 +58,7 @@ The article contains resources for gifs, royalty free images/icons and tutorials
 
 # Contributing 🤝
 - Fork the Project
+- Set origin to new fork ```git remote set-url origin new.git.url/here```
 - Create your Feature Branch ```git checkout -b feature/AmazingFeature```
 - Commit your Changes ```git commit -m 'Add some AmazingFeature'```
 - Push to the Branch ```git push origin feature/AmazingFeature```
