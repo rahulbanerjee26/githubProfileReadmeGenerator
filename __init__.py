@@ -64,7 +64,7 @@ if page == 'Generate README':
     p3_value = '''Projects,Tech Articles'''
     p3 = st.text_area("I am looking to collaborate on", value = p3_value)
 
-    p4_value = '''Python, JavaScript,Freelancing Opportunites, Open Source'''
+    p4_value = '''Python, JavaScript, Freelancing Opportunites, Open Source'''
     p4 = st.text_area("talk to me about",value = p4_value)
 
     user_skills = st.multiselect("Select Skills",options=skills,default=['python','reactjs','javascript','scikit','c','cpp','sqlite','pytorch'])
