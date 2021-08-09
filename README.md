@@ -10,10 +10,12 @@
 <h2 align ='center'> A few inputs + ~15 mins = Your Github Profile reaches a new level 🔥 </h2>
 
 # Live 🌞
-https://share.streamlit.io/rahulbanerjee26/githubaboutmegenerator/main/__init__.py  
+- <a href= 'https://share.streamlit.io/rahulbanerjee26/githubaboutmegenerator/main/__init__.py'> Live Site </a>
+  
 
 # Article 📝
-https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/
+
+- <a href= 'https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/'> Article </a>
 
 The article contains resources for gifs, royalty free images/icons and tutorials on how to create your secret repo for the About Me Page, setting up the blog flow action etc.
 
