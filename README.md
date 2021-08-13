@@ -86,6 +86,7 @@ If you find any errors/issues, feel free to create an Issue
 - <a href = 'https://github.com/saminul'> Saminul Islam </a>
 - <a href ='https://github.com/sksaikia'> Sourav Kr. Saikia </a>
 - <a href ='https://github.com/brandonbartram98'> Brandon Bartram </a>
+- <a href = 'https://github.com/goz4el'> Miguel Gozaine </a>
 
 # License ⚖️
 - Distributed under the ```MIT License```. See LICENSE for more information.
