@@ -6,7 +6,7 @@ st.set_page_config(layout='wide')
 
 st.markdown('''
 
-<h1> Github Profile README Me Template </h1>
+<h1> Github Profile README Generator </h1>
 
 [![GitHub stars](https://img.shields.io/github/stars/rahulbanerjee26/githubProfileReadmeGenerator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/stargazers/)
 
@@ -25,7 +25,7 @@ if page == 'Home':
     - Fill in the text boxes
     - Once you are done, select the 'Generate README' Button
     - If you are happy with the Readme, you can download it
-  
+    - For more details, check out this [Tutorial](https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/)
     ''')
 if page == 'Generate README':
     st.subheader("Fill in the text boxes and click on Generate README")
