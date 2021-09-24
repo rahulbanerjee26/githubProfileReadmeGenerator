@@ -75,7 +75,7 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
     python -m venv venv
     ```
 1. Activate the virtual environment
- `  ```sh
+    ```sh
     # Windows 
     venv/Scripts/activate
     
