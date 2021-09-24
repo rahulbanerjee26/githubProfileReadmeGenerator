@@ -69,15 +69,19 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
 
 ## Running Locally 🖥️
 
-1. Clone the Repo
-1. Create Virtual Environment
+1. Clone the repo or your fork.
+1. Create a virtual environment
     ```sh
     python -m venv venv
     ```
-1. Activate the virtual Environment
+1. Activate the virtual environment
  `  ```sh
+    # Windows 
     venv/Scripts/activate
-    ````
+    
+    # Linux/macOS
+    source venv/bin/activate
+    ```
 1. Install required dependencies
     ```sh
     pip install -r requirements.txt
