@@ -89,13 +89,18 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
 
 ## Contributors ✨
 
-- <a href= 'https://github.com/rahulbanerjee26'> Rahul Banerjee </a> - <banerjeer2611@gmail.com>
+- Rahul Banerjee - [@rahulbanerjee26](https://github.com/rahulbanerjee26) <banerjeer2611@gmail.com>
+- Michael Currin - [@MichaelCurrin](https://github.com/MichaelCurrin)
 
-# Feature Suggestion 💎
+## Feature Suggestion and Problems 💎
 
-- Create an Issue explaining the Feature
+Go to [Issues](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/issues) on the repo.
 
-# Contributing 🤝
+Create an explaining the Feature.
+
+If you find any errors/issues, feel free to create an Issue.
+
+## Contributing 🤝
 
 - Fork the Project
 - Set origin to new fork
@@ -119,13 +124,9 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
 - If you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR.
 - Follow the below format
     ```markdown
-    - <a href = 'Your Github URL'> Your Name </a>
+    - <a href = 'Your GitHub URL'> Your Name </a>
     ```
 - Or just reach out to me on Twitter/LinkedIn and I'll add you :)
-
-## Issues  🔓
-
-If you find any errors/issues, feel free to create an Issue.
 
 ## Plans for future release 📆
 
@@ -133,15 +134,18 @@ If you find any errors/issues, feel free to create an Issue.
 - Giving user ability to chose between different ReadMe designs
 - Increasing Number of social Icons
 
-# Users who used this app to generate a README 🌠
+## Users who used this app to generate a README 🌠
+
 - <a href = 'https://github.com/rahulbanerjee26'> Rahul Banerjee </a>
 - <a href = 'https://github.com/saminul'> Saminul Islam </a>
 - <a href ='https://github.com/sksaikia'> Sourav Kr. Saikia </a>
 - <a href ='https://github.com/brandonbartram98'> Brandon Bartram </a>
 - <a href = 'https://github.com/goz4el'> Miguel Gozaine </a>
 
-# License ⚖️
-- Distributed under the ```MIT License```. See LICENSE for more information.
+## License ⚖️
 
-# Resources
+- Distributed under the `MIT License`. See [LICENSE](/LICENSE) for more information.
+
+## Resources
+
 - https://metrics.lecoq.io/
