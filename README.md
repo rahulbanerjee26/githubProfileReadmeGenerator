@@ -92,47 +92,54 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
 - Rahul Banerjee - [@rahulbanerjee26](https://github.com/rahulbanerjee26) <banerjeer2611@gmail.com>
 - Michael Currin - [@MichaelCurrin](https://github.com/MichaelCurrin)
 
-## Feature Suggestion and Problems 💎
+## Contributing 🤝
+
+### Feature Suggestion and Problems 💎
 
 Go to [Issues](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/issues) on the repo.
 
-Create an explaining the Feature.
+- Create an explaining the Feature.
+- If you find any errors/issues, feel free to create an Issue.
 
-If you find any errors/issues, feel free to create an Issue.
+### Pull Requests 🔀
 
-## Contributing 🤝
+How to make code changes and add them to this repo with a Pull Request.
 
-- Fork the Project
-- Set origin to new fork
+1. Fork the Project
+1. Clone it using the URL from the Code button.
     ```sh
-    git remote set-url origin new.git.url/here
+    git clone FORK_URL
     ````
-- Create your Feature Branch
+1. Create your Feature Branch
     ```sh
     git checkout -b feature/AmazingFeature
     ```
-- Commit your Changes
+1. Commit your Changes
     ```sh
     git commit -m 'Add some AmazingFeature'
     ```
-- Push to the Branch
+1. Push to the Branch
     ```sh
     git push origin feature/AmazingFeature
     ```
-- Open a Pull Request
-- After your PR is merged, I will add you as a contributor :)
-- If you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR.
-- Follow the below format
-    ```markdown
-    - <a href = 'Your GitHub URL'> Your Name </a>
-    ```
-- Or just reach out to me on Twitter/LinkedIn and I'll add you :)
+1. Go to [Pull Requests](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/pulls) of the original repo.
+1. Create a Pull Request. Compare across forks and pick your fork and your branch.
+
+Once your PR is merged, I will add you as a contributor :)
+
+Or if you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR. Follow this format:
+
+```markdown
+- <a href = 'https://github.com/USERNAME'> DISPLAY NAME </a>
+```
+
+Or just reach out to me on Twitter/LinkedIn and I'll add you :)
 
 ## Plans for future release 📆
 
 - Adding more badges
 - Giving user ability to chose between different ReadMe designs
-- Increasing Number of social Icons
+- Increasing number of social Icons
 
 ## Users who used this app to generate a README 🌠
 
