@@ -139,6 +139,8 @@ Or if you wish to add yourself to 'Users who used this app' list, simply fork th
 
 Or just reach out to me on Twitter/LinkedIn and I'll add you :)
 
+To keep your fork's main branch up to date with that of the original repo, then on your fork on GitHub click the Fetch Upstream button near the top.
+
 ## Plans for future release 📆
 
 - Adding more badges
