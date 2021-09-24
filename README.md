@@ -109,18 +109,18 @@ How to make code changes and add them to this repo with a Pull Request.
 1. Clone it using the URL from the Code button.
     ```sh
     git clone FORK_URL
-    ````
+    ```
 1. Create your Feature Branch
     ```sh
-    git checkout -b feature/AmazingFeature
+    git checkout -b feat-my-feature
     ```
 1. Commit your Changes
     ```sh
-    git commit -m 'Add some AmazingFeature'
+    git commit -m 'Add some Amazing Feature'
     ```
 1. Push to the Branch
     ```sh
-    git push origin feature/AmazingFeature
+    git push origin feat-my-feature
     ```
 1. Go to [Pull Requests](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/pulls) of the original repo.
 1. Create a Pull Request. Compare across forks and pick your fork and your branch.
