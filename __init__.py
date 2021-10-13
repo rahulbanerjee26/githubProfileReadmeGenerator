@@ -44,15 +44,15 @@ if page == 'Generate README':
     col1 , col2, col3 = st.beta_columns(3)
 
     with col1:
-        name = st.text_input("Name",value = "Rahul")
-        twitter = st.text_input("Twitter", value = "rahulbanerjee99")
+        name = st.text_input("Name")
+        twitter = st.text_input("Twitter")
 
     with col2:
-        github = st.text_input("Github UserID",value="rahulbanerjee26")
+        github = st.text_input("Github UserID")
         portfolio = st.text_input("Portfolio")
 
     with col3:
-        linkedin = st.text_input("Linkedin userID",value='rahulbanerjee2699')
+        linkedin = st.text_input("Linkedin userID")
         medium = st.text_input("Medium URL")
 
     p1_value = '''My Blog, Github Project''' 
@@ -68,7 +68,7 @@ if page == 'Generate README':
     p4 = st.text_area("talk to me about",value = p4_value)
 
     user_skills = st.multiselect("Select Skills",options=skills,default=['python','reactjs','javascript','scikit','c','cpp','sqlite','pytorch'])
-    waka_userid = st.text_input("Wakatime User ID",value='rahulbanerjee26')
+    waka_userid = st.text_input("Wakatime User ID")
     e1 = st.beta_expander("What is Wakatime and how do I get my user ID?")
     with e1:
         st.text('''
@@ -85,7 +85,7 @@ if page == 'Generate README':
     st.markdown('<br>' , unsafe_allow_html = True) 
     e2 = st.beta_expander("How to display my latest blog posts?")
     with e2:
-        feed_url = st.text_input("URL to your feed", value = 'https://realpythonproject.com/feeed')
+        feed_url = st.text_input("URL to your feed")
         st.markdown(f'''
         - Ensure checkbox for blog in sidebar is selected
         - After you update the above feed url, give it a minute and Download the below yml file
