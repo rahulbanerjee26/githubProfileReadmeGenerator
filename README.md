@@ -95,7 +95,7 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
 
 - Rahul Banerjee - [@rahulbanerjee26](https://github.com/rahulbanerjee26) <banerjeer2611@gmail.com>
 - Michael Currin - [@MichaelCurrin](https://github.com/MichaelCurrin)
-- Varun(pygitdev) - [@pigitdev](https://github.com/pygitdev/)
+
 
 ## Contributing 🤝
 
