@@ -67,6 +67,11 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
 - Added Default Content
 <!-- /wp:list -->
 
+### Update 07-05-2022 🗓
+- Fixed Some Gif Issues
+- Added Banner Images Sugesstions
+- Updated Streamlit beta elements
+
 ## Running Locally 🖥️
 
 1. Clone the repo or your fork.

@@ -47,7 +47,7 @@ if page == 'Generate README':
     isBlog = sbar.checkbox(label= "Include Blog Posts",value = False)
     isJoke = sbar.checkbox(label= "Include Joke Card",value = True)
     joke_theme = sbar.selectbox(label="Select theme for Joke Card",options=theme_list)
-    col1 , col2, col3 = st.beta_columns(3)
+    col1 , col2, col3 = st.columns(3)
 
     with col1:
         name = st.text_input("Name")
@@ -75,7 +75,7 @@ if page == 'Generate README':
 
     user_skills = st.multiselect("Select Skills",options=skills,default=['python','reactjs','javascript','scikit','c','cpp','sqlite','pytorch'])
     waka_userid = st.text_input("Wakatime User ID")
-    e1 = st.beta_expander("What is Wakatime and how do I get my user ID?")
+    e1 = st.expander("What is Wakatime and how do I get my user ID?")
     with e1:
         st.text('''
                 Waktime is an extension for your code editor. 
@@ -89,7 +89,7 @@ if page == 'Generate README':
                     - Click on Save
             ''')
     st.markdown('<br>' , unsafe_allow_html = True) 
-    e2 = st.beta_expander("How to display my latest blog posts?")
+    e2 = st.expander("How to display my latest blog posts?")
     with e2:
         feed_url = st.text_input("URL to your feed")
         st.markdown(f'''
@@ -111,19 +111,38 @@ if page == 'Generate README':
 
     st.markdown('<br>' , unsafe_allow_html = True) 
     img_url = st.text_input(label='Enter Banner Image to be added at the top of the README',value = 'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg')
-    c1,c2 = st.beta_columns(2)
-    e3 = st.beta_expander("Getting Image URL")
+    c1,c2 = st.columns(2)
+    e3 = st.expander("Getting Image URL")
     with e3:
         st.markdown(''' 
     - Enter the URL to the image, ensure URL ends with an extension like '.png','.svg','.gif'
     - If you would like to use a downloaded image, upload the image to your GitHub repo
-    - Click on the image file in your repo and click on either Download/Raw
+    - Click on the image file in your repo and click on Open Image in New Tab
     - Copy the URL of image
         ''')
     with c1:
         img_width = st.text_input(label='Enter Image witdh (include units % or px)',value = '100%')
     with c2:
         img_height = st.text_input(label='Enter Image height (include units % or px)',value = '250px')
+
+    e4 = st.expander("Some Image Suggestions")
+    with e4:
+        fileNames = ["banner1.gif","banner2.jpeg","banner3.gif","banner4.gif","banner5.gif","banner6.gif","banner7.png","banner8.gif","banner9.gif"]
+        ih = "250px"
+        iw = "100%"
+        for banner in fileNames:
+            st.markdown(
+                f'''
+                <img width="{iw}" height = "{ih}" src="https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/banners/{banner}" alt="cover" />
+                <br>
+                <br>
+                <code> https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/banners/{banner} </code>
+                <br>
+                <br>
+                <br>
+                <br>
+                '''
+            ,unsafe_allow_html=True)
 
     save = st.button("Generate README")
     if save:
