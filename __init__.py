@@ -1,9 +1,13 @@
 import streamlit as st
 from helpers import *
-from main import skills
+from skills import skills
 
+
+# Set Page Layout to Wide
 st.set_page_config(layout='wide')
 
+
+# Common Stuff
 st.markdown('''
 
 <h1> Github Profile README Generator </h1>
@@ -18,6 +22,8 @@ sbar.markdown('''<a href="https://www.realpythonproject.com/a-free-tool-to-take-
 <a href="https://twitter.com/rahulbanerjee99" > Twitter 🐦</a> <br>
 <a href = "https://www.linkedin.com/in/rahulbanerjee2699/"> LinkedIn 👨‍💻</a>''' , unsafe_allow_html=True)
 page = sbar.radio("Select Page",options=['Home','Generate README'])
+
+
 if page == 'Home':
     st.subheader("Thank You for using this web app :smile:")
     st.markdown('''
@@ -101,6 +107,7 @@ if page == 'Generate README':
             ```
         - Once you create the folder and store the file, Go to your github repo > Actions. Select the workflow in left sidebar and click on run flow. You will only have to do this once. Github will periodically fetch content from your feed.
         ''')
+ 
 
     st.markdown('<br>' , unsafe_allow_html = True) 
     img_url = st.text_input(label='Enter Banner Image to be added at the top of the README',value = 'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg')
