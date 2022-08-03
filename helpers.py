@@ -112,7 +112,7 @@ joke_theme = 'dark',img_url = '',img_width='',img_height='',github_stats_type = 
 {display_socials(linkedin_url,twitter_url,medium_url,portfolio_url,github_username)}
 {show_waka(isWaka,waka_userName)}
 
-<h2> My GitHub Stats <img src='https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/blob/main/gifs/github.gif' width='32px' height=32px> </h2>
+<h2> My GitHub Stats <img src='https://raw.githubusercontent.com/rahulbanerjee26/githubProfileReadmeGenerator/main/gifs/github.gif' width='32px' height=32px> </h2>
 
 {show_github_stats(github_username,github_stats_theme,github_stats_type)}
 {show_blog(isBlog)}
