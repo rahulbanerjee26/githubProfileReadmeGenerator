@@ -10,7 +10,7 @@ st.set_page_config(layout='wide')
 # Common Stuff
 st.markdown('''
 
-<h1> Github Profile README Generator </h1>
+<h1> Github PROFILE README Generator </h1>
 
 [![GitHub stars](https://img.shields.io/github/stars/rahulbanerjee26/githubProfileReadmeGenerator.svg?style=social&label=Star&maxAge=2592000)](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/stargazers/)
 
@@ -34,10 +34,10 @@ if page == 'Home':
     - For more details, check out this [Tutorial](https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/)
     ''')
 if page == 'Generate README':
-    st.subheader("Fill in the text boxes and click on Generate README")
+    st.subheader("Fill in the text boxes and click on GENERATE README")
     theme_list = ["default","solarized-light","dark", "radical", "merko", "gruvbox", "tokyonight", "onedark", "cobalt", "synthwave", "highcontrast", "dracula"]
     
-    github_stats_type = sbar.selectbox(label="Chose Github Stats Card Type",options=['type-1','type-2','type-3'],index=1)
+    github_stats_type = sbar.selectbox(label="Choose Github Stats Card Type",options=['type-1','type-2','type-3'],index=1)
     
     github_stats_theme = ''
     if github_stats_type == 'type-3':
@@ -51,29 +51,29 @@ if page == 'Generate README':
 
     with col1:
         name = st.text_input("Name")
-        twitter = st.text_input("Twitter")
+        twitter = st.text_input("Twitter URL")
 
     with col2:
-        github = st.text_input("Github UserID")
-        portfolio = st.text_input("Portfolio")
+        github = st.text_input("Github Profile")
+        portfolio = st.text_input("Portfolio Link")
 
     with col3:
-        linkedin = st.text_input("Linkedin userID")
+        linkedin = st.text_input("Linkedin Profile")
         medium = st.text_input("Medium URL")
 
-    p1_value = '''My Blog, Github Project''' 
+    p1_value = '''Github projects, blogs etc...''' 
     p1 = st.text_area("I am currently working on", value=p1_value)
 
-    p2_value = '''Data Science,AWS,Data Engineering'''
+    p2_value = '''Data Science, AWS, Data Engineering etc...'''
     p2 = st.text_area("I am currently learning", value = p2_value)
 
-    p3_value = '''Projects,Tech Articles'''
+    p3_value = '''projects, tech articles...'''
     p3 = st.text_area("I am looking to collaborate on", value = p3_value)
 
-    p4_value = '''Python, JavaScript, Freelancing Opportunites, Open Source'''
-    p4 = st.text_area("talk to me about",value = p4_value)
+    p4_value = '''Python, JavaScript, Freelancing Opportunites, Open Source...'''
+    p4 = st.text_area("Let's talk about...",value = p4_value)
 
-    user_skills = st.multiselect("Select Skills",options=skills,default=['python','reactjs','javascript','scikit','c','cpp','sqlite','pytorch'])
+    user_skills = st.multiselect("Select Skills",options=skills,default=['python','reactjs','javascript','scikit','c','cpp','sqlite','pytorch','html', 'css', 'java'])
     waka_userid = st.text_input("Wakatime User ID")
     e1 = st.expander("What is Wakatime and how do I get my user ID?")
     with e1:
@@ -82,11 +82,11 @@ if page == 'Generate README':
                 It tracks the time you spend coding in a language
                 ''')
         st.markdown(''' 
-                    - On the top right corner click on your profile icon and click on Settings
-                    - Ensure you have a value in the textbox next to User Name
+                    - On the top right corner click on your profile icon and click on Settings.
+                    - Ensure you have a value in the textbox next to username.
                     - Check the box for the following 'Display photo publicly', 'Display code time publicly ', 'Display languages, editors, os, categories publicly'
-                    - In the dropdown next to 'Display code time publicly ', select 'Last 7 days' If you have a free version, the other options in the dropdown will not work
-                    - Click on Save
+                    - In the dropdown next to 'Display code time publicly ', select 'Last 7 days'. If you have a free version, the other options in the dropdown will not work
+                    - Click on Save.
             ''')
     st.markdown('<br>' , unsafe_allow_html = True) 
     e2 = st.expander("How to display my latest blog posts?")
@@ -98,19 +98,23 @@ if page == 'Generate README':
         {get_yml(feed_url)}
         ''',unsafe_allow_html = True)
         st.markdown(''' 
-        - Create a folder .github, inside it create another folder called workflows, inside it paste the downloaded blog-post-workflow.yml. 
+        - Create a folder .github.
+        - Create a sub-folder called workflows
+        - Create a sub-folder and paste the downloaded blog-post-workflow.yml. 
         - Essentially create .github/workflows/blog-post-workflow.yml. If you paste this as the file while creating a new file in Github, it creates the folders for you.
         - In your readme, you blog feed will appear in between the lines 
             ``` 
             <!-- BLOG-POST-LIST:START -->
             <!-- BLOG-POST-LIST:END -->
             ```
-        - Once you create the folder and store the file, Go to your github repo > Actions. Select the workflow in left sidebar and click on run flow. You will only have to do this once. Github will periodically fetch content from your feed.
+        - Once you create the folder and store the file, go to your github repo -> Actions. 
+        - Select the workflow in left sidebar and click on run flow. 
+        - You will only have to do this once. Github will periodically fetch content from your feed.
         ''')
  
 
     st.markdown('<br>' , unsafe_allow_html = True) 
-    img_url = st.text_input(label='Enter Banner Image to be added at the top of the README',value = 'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg')
+    img_url = st.text_input(label='Enter banner image to be added at the top of the README',value = 'https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg')
     c1,c2 = st.columns(2)
     e3 = st.expander("Getting Image URL")
     with e3:
