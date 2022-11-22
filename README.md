@@ -1,11 +1,11 @@
-# GitHub Profile README / About Me Generator 💯
+# Perfil Github README / Gerador Sobre Mim 💯
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 <a href="https://www.producthunt.com/posts/github-profile-readme-generator-2?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-github-profile-readme-generator-2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=294427&theme=light" alt="Github Profile README Generator - A Few inputs+ ~15mins= Github Profile reaches a new level 🔥 | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 [![Streamlit-Badge](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://rahulbanerjee26-githubprofilereadmegenerator---init---0nsops.streamlitapp.com/ "Go to web app")
 
 <div align='center'>
     
-## This web app lets you build a cool README for your profile.
+## Este aplicativo da web permite que você crie um README legal para o seu perfil.
 
 </div>
 
@@ -17,7 +17,7 @@
 
 <div align ='center'>
     
-## A few inputs + ~15 mins = Your GitHub Profile reaches a new level 🔥
+## Algumas entradas + ~ 15 minutos = Seu perfil do GitHub atinge um novo nível 🔥
     
 </div>
 
@@ -26,25 +26,25 @@
 
 [![Go to - Live Site](https://img.shields.io/badge/Go_to-Live_Site-2ea44f?style=for-the-badge)](https://rahulbanerjee26-githubprofilereadmegenerator---init---0nsops.streamlitapp.com/)
 
-## Article 📝
+## Artigo 📝
 
-- [How to create a GitHub Profile README using this web app](https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/) on RealPythonProjet.
+- [How to create a GitHub Profile README using this web app](https://www.realpythonproject.com/a-free-tool-to-take-your-github-profile-to-the-next-level/) no RealPythonProjet.
 
-The article contains resources for GIFs, royalty free images/icons and tutorials on how to create your secret repo for the About Me Page, setting up the blog flow action etc.
+O artigo contém recursos para GIFs, imagens/ícones e tutoriais sobre como criar seu repositório secreto para a página Sobre mim, configurar a ação de fluxo do blog, etc.
 
-## Usage 🔧
+## Uso 🔧
 
-- Fill in the text boxes. Leave the ones you do not wish to fill blank.
-- By default the generated ReadMe has GitHub stats and Wakatime stats, feel free to remove them.
-- If you want to build on top of the Readme, </a> refer to the article I mentioned above </a> for resources and tips
-- If you used this app to build your README, consider adding yourself to the "Users who used this app to generate a README" section. You can showcase your README and others will be able to view it and star it. You are guaranteed a star from me ⭐
+- Preencha as caixas de texto. Deixe aqueles que você não deseja preencher em branco.
+- Por padrão, o ReadMe gerado possui estatísticas do GitHub e do Wakatime, sinta-se à vontade para removê-los.
+- Se você quiser criar com base no Readme, </a> consulte o artigo que mencionei acima </a> para obter recursos e dicas
+- Se você usou este aplicativo para criar seu README, considere adicionar-se à seção "Usuários que usaram este aplicativo para gerar um README". Você pode mostrar seu README e outros poderão visualizá-lo e marcá-lo. Você está garantido uma estrela de mim ⭐
 
-## Built With 🧰
+## construído com 🧰
 
 - [Python](https://github.com/python)
 - [Streamlit](https://github.com/streamlit)
 
-## Features 💿
+## Característicos 💿
 
 <ul>
     <li>GIFs</li>
@@ -58,28 +58,28 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
     <li>Random Jokes Card</li>
 </ul>
 
-### Update 05-01-2020 🗓
+### Atualizar 05-01-2020 🗓
 
-- Clicking on Skills shows your github repos filtered on that skill
-- Chose GitHub Stats Card Type
-- Cool Image in About Me section
-- Fixed styling 
-- Added Default Content
+- Clicar em Habilidades mostra seus repositórios do github filtrados nessa habilidade
+- Escolha o tipo de cartão de estatísticas do GitHub
+- Imagem legal na seção Sobre mim
+- Estilo fixo
+- Adicionado conteúdo padrão
 <!-- /wp:list -->
 
-### Update 07-05-2022 🗓
-- Fixed Some Gif Issues
-- Added Banner Images Sugesstions
-- Updated Streamlit beta elements
+### Atualizar 07-05-2022 🗓
+- Corrigidos alguns problemas de GIF
+- Adicionado sugestões de imagens de banner
+- Elementos beta do Streamlit atualizados
 
-## Running Locally 🖥️
+## Executando localmente 🖥️
 
-1. Clone the repo or your fork.
-1. Create a virtual environment
+1. Clone o repositório ou seu fork.
+1. Crie um ambiente virtual
     ```sh
     python -m venv venv
     ```
-1. Activate the virtual environment
+1. Ative o ambiente virtual
     ```sh
     # Windows 
     venv/Scripts/activate
@@ -87,72 +87,73 @@ The article contains resources for GIFs, royalty free images/icons and tutorials
     # Linux/macOS
     source venv/bin/activate
     ```
-1. Install required dependencies
+1. Instale as dependências necessárias
     ```sh
     pip install -r requirements.txt
     ```
-1. Run the App 
+1. Execute o aplicativo
     ```sh
     streamlit run __init__.py
     ```
 
-## Contributors ✨
+## Contribuidoras ✨
 
 - Rahul Banerjee - [@rahulbanerjee26](https://github.com/rahulbanerjee26) <banerjeer2611@gmail.com>
 - Michael Currin - [@MichaelCurrin](https://github.com/MichaelCurrin)
 
-## Contributing 🤝
+## Contribuindo 🤝
 
-### Feature Suggestion and Problems 💎
+### Sugestão de Funcionalidades e Problemas 💎
 
 Go to [Issues](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/issues) on the repo.
 
-- Create an explaining the Feature.
-- If you find any errors/issues, feel free to create an Issue.
+- Crie um explicando o recurso.
+- Se você encontrar algum erro/problema, sinta-se à vontade para criar um Problema.
 
 ### Pull Requests 🔀
 
-How to make code changes and add them to this repo with a Pull Request.
+Como fazer alterações de código e adicioná-las a este repositório com uma Pull request.
 
-1. Fork the Project
-1. Clone it using the URL from the Code button.
+1. Bifurque o projeto
+1. Clone-o usando o URL do botão Código.
     ```sh
     git clone FORK_URL
     ```
-1. Create your Feature Branch
+1. Crie sua ramificação de recurso
     ```sh
     git checkout -b feat-my-feature
     ```
-1. Commit your Changes
+1. Confirme suas alterações
     ```sh
     git commit -m 'Add some Amazing Feature'
     ```
-1. Push to the Branch
+1. Empurre para a filial
     ```sh
     git push origin feat-my-feature
     ```
-1. Go to [Pull Requests](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/pulls) of the original repo.
-1. Create a Pull Request. Compare across forks and pick your fork and your branch.
+1. Va para [Pull Requests](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator/pulls) do repositório original.
+1. Crie uma solicitação pull. Compare as bifurcações e escolha sua bifurcação e sua ramificação.
 
-Once your PR is merged, I will add you as a contributor :)
+Depois que seu PR for mesclado, adicionarei você como colaborador :)
 
-Or if you wish to add yourself to 'Users who used this app' list, simply fork the repo, update the README and make a PR. Follow this format:
+Ou se você deseja se adicionar à lista de 'Usuários que usaram este aplicativo', simplesmente bifurque o repositório, atualize o README e faça um PR. 
+Siga este formato:
 
 ```markdown
 - <a href = 'https://github.com/USERNAME'> DISPLAY NAME </a>
 ```
 
-Or just reach out to me on Twitter/LinkedIn and I'll add you :)
+Ou apenas entre em contato comigo no Twitter/LinkedIn e eu adicionarei você :)
 
-To keep your fork's main branch up to date with that of the original repo, then on your fork on GitHub click the Fetch Upstream button near the top.
+Para manter o branch principal do seu fork atualizado com o repositório original, em seu fork no GitHub, clique no botão Fetch Upstream próximo ao topo.
 
-## Plans for future release 📆
+## Planos para lançamento futuro 📆
 
-- Adding more badges
-- Giving user ability to chose between different ReadMe designs
-- Increasing number of social Icons
+- Adicionando mais emblemas
+- Dando ao usuário a capacidade de escolher entre diferentes designs ReadMe
+- Aumento do número de ícones sociais
 
-## Users who used this app to generate a README 🌠
+## Usuários que usaram este aplicativo para gerar um README 🌠
 
 - <a href = 'https://github.com/rahulbanerjee26'> Rahul Banerjee </a>
 - <a href = 'https://github.com/saminul'> Saminul Islam </a>
@@ -160,10 +161,10 @@ To keep your fork's main branch up to date with that of the original repo, then 
 - <a href ='https://github.com/brandonbartram98'> Brandon Bartram </a>
 - <a href = 'https://github.com/goz4el'> Miguel Gozaine </a>
 
-## License ⚖️
+## Licença ⚖️
 
-- Distributed under the `MIT License`. See [LICENSE](/LICENSE) for more information.
+- Distribuído sob o `MIT License`. Ver [LICENSE](/LICENSE) Para maiores informações.
 
-## Resources
+## Recursos
 
 - https://metrics.lecoq.io/
